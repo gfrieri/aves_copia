@@ -75,7 +75,7 @@ $(document).ready(function () {
 
   // Cargar imágenes desde la carpeta
   function cargarImagenes() {
-    var carpetaImagenes = "/static/images/";
+    var carpetaImagenes = "../static/images/";
 
     $("#tabla-aves tbody tr").each(function () {
       var nombreImagen = $(this).find("td:last-child").text();
@@ -99,7 +99,7 @@ $(document).ready(function () {
 });
 
 // Obtener el csv
-var csv_url = "../../data/avesReportadasUni.csv";
+var csv_url = "../data/avesReportadasUni.csv";
 
 fetch(csv_url)
   .then((response) => response.text())

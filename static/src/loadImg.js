@@ -33,4 +33,4 @@ function loadImagesFromFolder(folder) {
 }
 
 // Llamar a la función para cargar las imágenes desde la carpeta
-loadImagesFromFolder("/static/images/");
+loadImagesFromFolder("../static/images/");
